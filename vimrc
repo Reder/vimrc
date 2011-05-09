@@ -11,7 +11,7 @@ set noswapfile
 set encoding=utf-8                                  
 set termencoding=utf-8
 set fileencoding=utf-8
-set fileencodings=ucs-bom,utf-8,big5,latin1
+set fileencodings=ucs-bom,utf-8,big5,ms950,latin1
 
 set bs=2    		" allow backspacing over everything in insert mode
 set history=100		" keep 100 lines of command line history
