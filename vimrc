@@ -1,6 +1,10 @@
 " Reder's vimrc
 " Reder Tseng <reder.tseng@gmail.com>
 
+" pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " General Settings
 set nocompatible	" not compatible with the old-fashion vi mode
 set nobackup		" no *~ backup files
@@ -34,7 +38,7 @@ set cursorline		" underline current cursor
 set noerrorbells    " no sound on errors
 set novisualbell    " no sound on errors
 set showcmd
-set showmatch		" Cursor shows matching ) and }
+"set showmatch		" Cursor shows matching ) and }
 set showmode		" Show current mode
 set wildchar=<TAB>	" start wild expansion in the command line using <TAB>
 set wildmenu        " wild char completion menu
@@ -54,3 +58,4 @@ set tabstop=4       " an indentation every four columns
 " Search Settings
 set ignorecase
 set incsearch
+
