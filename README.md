@@ -8,7 +8,7 @@ Try to build up my own vimrc.
 
 1. Setup vundle.
 
-    $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+        $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 2. Run `install-vimrc.sh`.
 
