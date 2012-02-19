@@ -24,6 +24,9 @@ Bundle 'jpalardy/vim-slime'
 filetype indent on      " Enable filetype-specific indenting
 filetype plugin on      " Enable filetype-specific plugins
 
+" auto reload vimrc when editing it
+autocmd! bufwritepost .vimrc source ~/.vimrc
+
 " Encoding Settings
 set encoding=utf-8                                  
 set termencoding=utf-8
